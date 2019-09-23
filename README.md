@@ -17,3 +17,7 @@ kottans-backend courses
 **If You know how to work with a team, you are almost a programmer! GitHub & Collaboration cource helps you to improve teamworking skills.
 `git rebase` isn't really all that difficult, and that you can bravely make changes to your repository without fear of doing any damage!
 I intend to use it in future.**
+
+![git](task_git_collaboration/GitHub_Collaboration_1.jpg)
+![git](task_git_collaboration/GitHub_Collaboration_2.jpg)
+![git](task_git_collaboration/GitHub_Collaboration_3.jpg)
