@@ -12,3 +12,8 @@ kottans-backend courses
 **It was allways interesting to me to work with command line. Copying and renaming files without GUI rather cool!). I will improve my command line skills for team working in the future.**
 ![Unix_Shell](task_unix_shell/command_line.jpg)
 ![Unix_Shell](task_unix_shell/linux_survival.jpg)
+
+## GitHub & Collaboration
+**If You know how to work with a team, you are almost a programmer! GitHub & Collaboration cource helps you to improve teamworking skills.
+`git rebase` isn't really all that difficult, and that you can bravely make changes to your repository without fear of doing any damage!
+I intend to use it in future.**
