@@ -142,3 +142,21 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 - `HEAP - 55bfa6301000-55bfa6458000 rw-p 00000000 00:00 0`
 - `STACK - 7fff82dd6000-7fff82df7000 rw-p 00000000 00:00 0`
 - `MMS - 7f0cc5a45000-7f0cc5a46000 rw-p 0000c000 07:00 30773`
+
+## HTTP & HTTPS
+Requests:
+- `curl https://api.github.com/users/DavydovDenys`
+- `curl -i https://api.github.com/users/DavydovDenys`
+- `curl -i https://api.github.com/users/DavydovDenys`
+- `curl --user "DavydovDenys:****************" https://api.github.com/gists/starred`
+- `curl --user "DavydovDenys" https://api.github.com/gists/starred`
+- `curl -i https://api.github.com/orgs/kottans/repos`
+- ```
+  curl -H 'Authorization: token 5199831f4dd3b79e7c5b7e0ebe75d67aa66e79d4'
+       -d '{\ 
+          "title": "New logo", \
+          "body": "We should have one", \
+          "labels": ["design"] \
+           }'\
+        https://api.github.com/repos/DavydovDenys/kottans-backend/issues
+  ```
