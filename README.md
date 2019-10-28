@@ -164,3 +164,5 @@ Requests:
 - There is a possibility to intercept your data.
 - A non-certified server may imitate another website.
 - Our website may be blocked by a browser
+2. Explain the main idea behind public key cryptography in few sentences
+-Public-key cryptography, or asymmetric cryptography, is an encryption scheme that uses two mathematically related, but not identical, keys - a public key and a private key.The public key is used to encrypt and the private key is used to decrypt.It is computationally infeasible to compute the private key based on the public key. Because of this, public keys can be freely shared and and private keys can be kept secret, ensuring only the owners of the private keys can decrypt content
