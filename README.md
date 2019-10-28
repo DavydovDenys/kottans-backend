@@ -165,4 +165,35 @@ Requests:
 - A non-certified server may imitate another website.
 - Our website may be blocked by a browser
 2. Explain the main idea behind public key cryptography in few sentences
--Public-key cryptography, or asymmetric cryptography, is an encryption scheme that uses two mathematically related, but not identical, keys - a public key and a private key.The public key is used to encrypt and the private key is used to decrypt.It is computationally infeasible to compute the private key based on the public key. Because of this, public keys can be freely shared and and private keys can be kept secret, ensuring only the owners of the private keys can decrypt content
+- Public-key cryptography, or asymmetric cryptography, is an encryption scheme that uses two mathematically related, but not identical,   keys - a public key and a private key.The public key is used to encrypt and the private key is used to decrypt.It is computationally   
+  infeasible to compute the private key based on the public key. Because of this, public keys can be freely shared and and private keys   can be kept secret, ensuring only the owners of the private keys can decrypt content
+3. You are creating an application for pet clinic. You need to implement the following functionality:
+- Request:
+`POST /pets {'petName': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': string}`
+- Response:
+`201 {'id': int, 'petName': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': string}`
+
+- Request:
+`GET /pets?name=string\`
+- Response:
+`200 {'id': int, 'petName': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': string}`
+
+- Request:
+`PUT /pets/<pet_id:int> {'petName': string}`
+- Response:
+`200 {'id': int, 'petName': string}`
+
+- Request:
+`PUT /pets/<pet_id:int> {'medicalHistory': string}`
+- Response:
+`200 {'id': int, 'petName': string, 'medicalHistory': string}`
+
+- Request:
+`PUT /doctors/<doctor_id:int> {'assignedPets': [int, ...]}`
+- Response:
+`200 {doctor_id:int, 'id': int, 'petName': string, ..., 'assignedPets': [int, ...]}`
+
+- Request:
+`POST /appointments {'petId': int, 'doctorId': int, 'AppointmentDateTime': date, 'description': string}`
+- Response:
+`201 {'id': int, 'petId': int, 'doctorId': int, 'AppointmentDateTime': date, 'description': string}`
