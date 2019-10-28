@@ -160,3 +160,7 @@ Requests:
            }'\
         https://api.github.com/repos/DavydovDenys/kottans-backend/issues
   ```
+1. Name at least three possible negative consequences of not using https.
+- There is a possibility to intercept your data.
+- A non-certified server may imitate another website.
+- Our website may be blocked by a browser
